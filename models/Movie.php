@@ -3,9 +3,9 @@
 
 class Movie
 {
-    // public $title;
-    // public $genre;
-    // public $duration;
+    public $title;
+    public $genre;
+    public $duration;
 
     public function __construct(String $title, String $genre, int $duration)
     {
